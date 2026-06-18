@@ -6,7 +6,7 @@ Run the full six-step pipeline end to end.
 Each step writes its artifacts to outputs/ (and figures/). The steps are
 independent modules so they can also be run one at a time for inspection.
 """
-from src import clean_newspapers, extract_ekg, build_graph, causal_model, inference
+from src import clean_newspapers, extract_ekg, build_graph, causal_model, inference, confounding_demo
 
 
 def main():
@@ -26,6 +26,8 @@ def main():
     causal_model.render(dag)
     print("\n=== Step 6: causal inference ==========================")
     inference.run()
+    print("\n=== Step 6 (quant add-on): confounding demo ===========")
+    confounding_demo.run()
     print("\nDone. See outputs/ and figures/.")
 
 
