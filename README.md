@@ -191,22 +191,3 @@ League's standing around datable decisions, plus a proxy for great-power
 commitment (`U`), would permit a backdoor adjustment or a difference-in-
 differences design around the Persia vote — the quantitative tools this course
 builds toward.
-
----
-
-## What to submit (mapping to the brief)
-
-1. **Code / notebook** — `src/`, `run_pipeline.py`, `notebook.ipynb`.
-2. **Knowledge-graph export** — `outputs/nodes.csv`, `outputs/edges.csv`, `outputs/ekg.graphml`.
-3. **Causal diagram** — `figures/causal_dag.png`.
-4. **Report** — `report.docx` (5-page formatted report; `report.pdf` is a preview copy). This README mirrors its content (Sections 0–7).
-
-## Honest limitations
-
-Rule-based extraction misses implicit causation and mis-segments some OCR;
-`U` is a qualitative confounder, not a measured variable, so the identification
-claim is argued, not estimated; and the "credibility" outcome is press rhetoric,
-not a metric. These are stated so the reader knows exactly how far the analysis
-reaches — which is the discipline the whole pipeline is meant to teach.
-
-**Data source:** Library of Congr
